@@ -19,6 +19,7 @@ a = index + 1
 b = 4 (4일때 뺴는 값) 
 index_data[index+1]-b, index_data[index]+b( 8*(2^3)^(a-index) )/2^index
 
+index_data[index]+b( 8*(2^3)^(a-index) )/2^index = index_data[index]+b*2^(3+a-2index) 로 정리 가능, 해당 공식에 전체적으로 오류가 몇개 있는거같은데 수정 필요할듯.
 연산 3 수행했을 때 a = a+1 
 연산 횟수에 따른 1번 연산부터 재수행. 하면 8진수 > 16진수 변환공식
 
