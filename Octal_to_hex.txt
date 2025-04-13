@@ -1,4 +1,4 @@
-Octal to Hex
+Octal to Hex Convert
 
 인덱스 값의 데이터값. A값, B값을 index_data[] 배열의 값이라 할 때 
 예 15123(8진수) 에서 ) index_data[0] = 3, index_data[1] = 2 . . . index_data[4] = 1
